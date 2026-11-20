@@ -1,0 +1,43 @@
+appId: org.wifitester.linux
+productName: Wi-Fi Tester
+copyright: Copyright © 2026 Wi-Fi Tester Contributors
+directories:
+  output: release
+  buildResources: build
+files:
+  - dist/**/*
+  - server.ts
+  - server/**/*
+  - src/shared/**/*
+  - electron/**/*
+  - public/assets/aistudio/App_logo_7d567632.svg
+  - package.json
+linux:
+  category: Network;System;Monitor
+  icon: public/assets/aistudio/App_logo_7d567632.svg
+  desktop:
+    Name: Wi-Fi Tester
+    Comment: Local NetworkManager Wi-Fi signal monitor and 1-hour stability analyzer
+    Categories: Network;System;Monitor;
+    StartupWMClass: Wi-Fi Tester
+  target:
+    - target: AppImage
+      arch:
+        - x64
+        - arm64
+    - target: deb
+      arch:
+        - x64
+        - arm64
+deb:
+  depends:
+    - network-manager
+    - libgtk-3-0
+    - libnotify4
+    - libnss3
+    - libxss1
+    - libxtst6
+    - xdg-utils
+    - libatspi2.0-0
+    - libuuid1
+    - libsecret-1-0

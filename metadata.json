@@ -1,0 +1,6 @@
+{
+  "name": "Wi-Fi Tester",
+  "description": "Privacy-first Linux desktop Wi-Fi signal monitor reading NetworkManager state into local SQLite with one-hour location-scoped stability analytics.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

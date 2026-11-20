@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=Application
+Name=Wi-Fi Tester
+GenericName=Wi-Fi Signal Monitor
+Comment=Read-only NetworkManager Wi-Fi monitor with local SQLite 1-hour history
+Exec=wifi-tester
+Icon=wifi-tester
+Terminal=false
+Categories=Network;System;Monitor;
+Keywords=wifi;networkmanager;signal;sqlite;diagnostics;
+StartupNotify=true
